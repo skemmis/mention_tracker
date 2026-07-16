@@ -1,0 +1,1 @@
+ALTER TABLE public.mention_events ADD COLUMN series_ticker TEXT;

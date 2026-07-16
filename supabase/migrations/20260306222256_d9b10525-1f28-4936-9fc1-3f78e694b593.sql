@@ -1,0 +1,2 @@
+ALTER TABLE public.mention_events ADD CONSTRAINT mention_events_kalshi_event_ticker_key UNIQUE (kalshi_event_ticker);
+ALTER TABLE public.phrase_markets ADD CONSTRAINT phrase_markets_mention_event_id_kalshi_ticker_key UNIQUE (mention_event_id, kalshi_ticker);

@@ -1,0 +1,1 @@
+ALTER TABLE phrase_markets ADD CONSTRAINT phrase_markets_event_ticker_unique UNIQUE (mention_event_id, kalshi_ticker);

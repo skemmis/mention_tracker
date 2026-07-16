@@ -1,0 +1,2 @@
+UPDATE mention_events SET subject_id = '7bba8c46-bdc2-416a-b2b8-bc72fd1ed2aa' WHERE subject_id = '59b4c991-3f3c-45e0-8281-f03e64bfd5cd';
+DELETE FROM subjects WHERE id = '59b4c991-3f3c-45e0-8281-f03e64bfd5cd';
